@@ -46,7 +46,7 @@ podTemplate(
             docker push namespace/my-image:${gitCommit}
             """
             }
-        }
+            }}
         
     }
 }
